@@ -1,12 +1,6 @@
-// let player = prompt("Masukan nama");
-alert('hh')
 const p1Name = document.querySelector(".p1Name");
+p1Name.innerHTML = `PLAYER : [X]`
 
-// if (player) {
-// 	p1Name.innerHTML = `${player} : [X]`
-// }else{
-	p1Name.innerHTML = `PLAYER : [X]`
-//}
 
 let pemain = "X"
 const kolom1 = document.querySelector('.kolom1')
@@ -120,7 +114,8 @@ if (kolom1.textContent && kolom2.textContent &&
 
  function menang(){
  	
- 	alert("menang")
+ 	let string = `pemain ${ pemain } Menang XD`;
+ 	alert(string);
  	resetGame()
  }
 

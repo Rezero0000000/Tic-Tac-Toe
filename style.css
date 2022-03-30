@@ -98,6 +98,20 @@ body{
   color:white;
 }
 
+.action{
+	margin-top: 50px;
+	justify-content: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.reset, .new {
+	font-size: 20px;
+	font-weight: 547;
+}
+
+
+
 
 /*#158589
 #629e9f
