@@ -1,5 +1,5 @@
 const p1Name = document.querySelector(".p1Name");
-p1Name.innerHTML = `PLAYER : [X]`
+p1Name.innerHTML = `PLAYER : [X]`;
 
 
 let pemain = "X"
