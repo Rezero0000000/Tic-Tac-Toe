@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
-Sebuah game sederhana berbasis web 
-## Teknologi 
+A simple website game using vanilla js
+## Tech 
 - HTML 5
 - CSS 3
 - Javascript 
